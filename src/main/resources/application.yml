@@ -1,0 +1,6 @@
+server:
+  ssl:
+      key-store: {{pathToKeyStoreFile}}
+      key-alias: tomcat
+      key-store-password: password
+  port: 8443
